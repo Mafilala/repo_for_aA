@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learning the Forms</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <form method="post">
+      <fieldset>
+        <legend>Add user</legend>
+        <div class="inp_lab_pair">
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" />
+        </div>
+        <div class="inp_lab_pair">
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" />
+        </div>
+        <div class="inp_lab_pair">
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+        <div class="inp_lab_pair">
+          <label for="status">Status</label>
+          <select id="status">
+            <option value="1">Student</option>
+            <option value="2">Instructor</option>
+            <option value="3">Guest</option>
+          </select>
+        </div>
+        <pChoose your favorite programming language:p>
+        <div class="ch_bo>
+          <label for="html">HTML</label>
+          <input id="html" type="radio" name="choose" />
+        </div>
+        <div class="ch_bo">
+          <label for="css">CSS</label>
+          <input id="css" type="radio" name="choose" />
+        </div>
+        <div class="ch_bo">
+          <label for="js">JavaScript</label>
+          <input id="js" type="radio" name="choose" />
+        </div>
+        <div class="inp_lab_pair">
+          <label for="bio">Comments</label>
+          <textarea id="bio" cols="30" rows="5"></textarea>
+        </div>
+        <div class="inp_lab_pair">
+          <label for="date">current date </label>
+          <input type="date" id="date" />
+        </div>
+        <div class="ch_bo">
+          <label for="news">Sign up for newsletter</label>
+          <input type="checkbox" id="news" />
+        </div>
+        <div class="ch_bo">
+          <label for="agree">Agree to terms and conditions</label>
+          <input type="checkbox" id="agree" />
+        </div>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
